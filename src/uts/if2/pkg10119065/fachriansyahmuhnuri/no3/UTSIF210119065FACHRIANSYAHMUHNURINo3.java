@@ -19,7 +19,7 @@ public class UTSIF210119065FACHRIANSYAHMUHNURINo3 {
         
         Rnb mg2 = new Rnb();
         mg2.setArtisName("Chad Baker");
-        mg2.genreJazz(mg1.getArtisName());
+        mg2.genreJazz(mg2.getArtisName());
         
         Folk folk = new Folk();
         folk.setArtisName("Bob Dylan");
@@ -38,7 +38,7 @@ public class UTSIF210119065FACHRIANSYAHMUHNURINo3 {
        psychedelicRock.genrePsychedelicRock(psychedelicRock.getArtisName());
        
        HardRock popRock = new HardRock();
-       popRock.setArtisName("The doors");
+       popRock.setArtisName("Kiss");
        popRock.genrePopRock(popRock.getArtisName());
        
        
